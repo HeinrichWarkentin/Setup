@@ -15,26 +15,38 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_2DF3436C0E704339A7A0142389F4D250"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4CE7659EC5A244D7BA8608C750CD4A66"
+        "MsmKey" = "8:_64669295CC1444D58194E1D78286FEAF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_A7CE7B3C79382896033BA48FEF909635"
-        "OwnerKey" = "8:_2DF3436C0E704339A7A0142389F4D250"
+        "OwnerKey" = "8:_B4B454B26E464B62B0C77AA319340CA6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B4B454B26E464B62B0C77AA319340CA6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D9F0757182384EBC923CAF03220C2A6D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E61E7B12BF0A422A9118312E24FAAE7B"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2DF3436C0E704339A7A0142389F4D250"
+        "OwnerKey" = "8:_B4B454B26E464B62B0C77AA319340CA6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -105,6 +117,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -112,6 +132,20 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_8B29977DA5F5422DBFCED8F2D31DB20B"
+            {
+            "Name" = "8:cmd.exe"
+            "Condition" = "8:"
+            "Object" = "8:_D9F0757182384EBC923CAF03220C2A6D"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:/c \"[TARGETDIR]berechtigung.bat\""
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_589CF29F_DF89_4ACD_8C23_856577E870C2"
+            "InstallerClass" = "11:FALSE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -135,10 +169,10 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4CE7659EC5A244D7BA8608C750CD4A66"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_64669295CC1444D58194E1D78286FEAF"
             {
-            "SourcePath" = "8:..\\LiederAnzeige\\ios7-musical-notes_icon-icons.com_50221.ico"
-            "TargetName" = "8:ios7-musical-notes_icon-icons.com_50221.ico"
+            "SourcePath" = "8:..\\LiederAnzeige\\berechtigung.bat"
+            "TargetName" = "8:berechtigung.bat"
             "Tag" = "8:"
             "Folder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
             "Condition" = "8:"
@@ -186,6 +220,46 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D9F0757182384EBC923CAF03220C2A6D"
+            {
+            "SourcePath" = "8:..\\LiederAnzeige\\cmd.exe"
+            "TargetName" = "8:cmd.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E61E7B12BF0A422A9118312E24FAAE7B"
+            {
+            "SourcePath" = "8:..\\LiederAnzeige\\ios7-musical-notes_icon-icons.com_50221.ico"
+            "TargetName" = "8:ios7-musical-notes_icon-icons.com_50221.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -203,9 +277,42 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_6F8D54DCE15843C9ABA8C66C46DF400F"
+            {
+            "Name" = "8:#1918"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:PersonalFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_3D2DD234786B43638838708E7EE2B56E"
+                    {
+                    "Name" = "8:LiederAnzeige"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_99D1F5EE85954FE98C881646CBDE6690"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_B621FEF83703421494FDD144B58DF6A3"
+                            {
+                            "Name" = "8:_data"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_26292680EF4C4F649941B7655C6C0260"
+                                "Folders"
+                                {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_8A2535BFA45B43049FC1D5C9F158B24B"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -237,28 +344,6 @@
                     }
                 }
             }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_FBF6A7FF40C5455EA4C4AEB3A49F6842"
-            {
-            "Name" = "8:#1915"
-            "AlwaysCreate" = "11:FALSE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Property" = "8:AppDataFolder"
-                "Folders"
-                {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_D4B8A60A5C484CF4B1D31635BD048B54"
-                    {
-                    "Name" = "8:_data"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_1BDE97583E7B49C7A0C90D3AC2F67455"
-                        "Folders"
-                        {
-                        }
-                    }
-                }
-            }
         }
         "LaunchCondition"
         {
@@ -276,7 +361,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LiederAnzeige"
         "ProductCode" = "8:{CDB6844D-1735-49FD-B7D8-02026E19C26D}"
-        "PackageCode" = "8:{E23C99BD-5640-471F-ACB2-51A082DD08CF}"
+        "PackageCode" = "8:{00CFE0F7-8D09-438C-8E34-C56368828292}"
         "UpgradeCode" = "8:{12445EC8-9692-4AA7-B0D8-4109D134E401}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -293,11 +378,11 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Programm zum Anzeigen von Liedern im Gottesdienst"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_4CE7659EC5A244D7BA8608C750CD4A66"
+        "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -396,7 +481,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_631A9E0CC3214686A4513A6779718C65"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3DB3E2730A32451CBCBA7580E3AA8CC5"
             {
             "Name" = "8:LiederAnzeige"
             "Arguments" = "8:"
@@ -404,24 +489,24 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_2DF3436C0E704339A7A0142389F4D250"
-            "Folder" = "8:_2525785F7F4D4415ABC3687B55D950E9"
-            "WorkingFolder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
-            "Icon" = "8:_4CE7659EC5A244D7BA8608C750CD4A66"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A7813F33016048CDA7A234F7192D9BA8"
-            {
-            "Name" = "8:LiederAnzeige"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_2DF3436C0E704339A7A0142389F4D250"
+            "Target" = "8:_B4B454B26E464B62B0C77AA319340CA6"
             "Folder" = "8:_6B01037FAA2944579DDDB0E3844127AF"
             "WorkingFolder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
-            "Icon" = "8:_4CE7659EC5A244D7BA8608C750CD4A66"
+            "Icon" = "8:_E61E7B12BF0A422A9118312E24FAAE7B"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CA9EB27ABB9546C7B7DFFD1B49BE256B"
+            {
+            "Name" = "8:LiederAnzeige"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_B4B454B26E464B62B0C77AA319340CA6"
+            "Folder" = "8:_2525785F7F4D4415ABC3687B55D950E9"
+            "WorkingFolder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
+            "Icon" = "8:_E61E7B12BF0A422A9118312E24FAAE7B"
             "Feature" = "8:"
             }
         }
@@ -823,7 +908,36 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2DF3436C0E704339A7A0142389F4D250"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_939275E966564C37A27CEB1101143EDB"
+            {
+            "SourcePath" = "8:"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:ContentFiles"
+            "OutputProjectGuid" = "8:{8FC184C6-FE26-40D6-B452-215FFB6AD6D0}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                "ExcludeFilter" = "8:ios7-musical-notes_icon-icons.com_50221.ico"
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B4B454B26E464B62B0C77AA319340CA6"
             {
             "SourcePath" = "8:..\\LiederAnzeige\\obj\\Debug\\LiederAnzeige.exe"
             "TargetName" = "8:"
@@ -845,34 +959,6 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{8FC184C6-FE26-40D6-B452-215FFB6AD6D0}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_79CD6B082B6B4E2FAA9E22CD83769464"
-            {
-            "SourcePath" = "8:"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_D4B8A60A5C484CF4B1D31635BD048B54"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:ContentFiles"
             "OutputProjectGuid" = "8:{8FC184C6-FE26-40D6-B452-215FFB6AD6D0}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
