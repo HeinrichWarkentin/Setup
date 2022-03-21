@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_64669295CC1444D58194E1D78286FEAF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_A7CE7B3C79382896033BA48FEF909635"
         "OwnerKey" = "8:_B4B454B26E464B62B0C77AA319340CA6"
         "MsmSig" = "8:_UNDEFINED"
@@ -28,12 +22,6 @@
         "Entry"
         {
         "MsmKey" = "8:_B4B454B26E464B62B0C77AA319340CA6"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D9F0757182384EBC923CAF03220C2A6D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -132,20 +120,6 @@
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_8B29977DA5F5422DBFCED8F2D31DB20B"
-            {
-            "Name" = "8:cmd.exe"
-            "Condition" = "8:"
-            "Object" = "8:_D9F0757182384EBC923CAF03220C2A6D"
-            "FileType" = "3:2"
-            "InstallAction" = "3:2"
-            "Arguments" = "8:/c \"[TARGETDIR]berechtigung.bat\""
-            "EntryPoint" = "8:"
-            "Sequence" = "3:1"
-            "Identifier" = "8:_589CF29F_DF89_4ACD_8C23_856577E870C2"
-            "InstallerClass" = "11:FALSE"
-            "CustomActionData" = "8:"
-            }
         }
         "DefaultFeature"
         {
@@ -169,26 +143,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_64669295CC1444D58194E1D78286FEAF"
-            {
-            "SourcePath" = "8:..\\LiederAnzeige\\berechtigung.bat"
-            "TargetName" = "8:berechtigung.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A7CE7B3C79382896033BA48FEF909635"
             {
             "AssemblyRegister" = "3:1"
@@ -218,26 +172,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D9F0757182384EBC923CAF03220C2A6D"
-            {
-            "SourcePath" = "8:..\\LiederAnzeige\\cmd.exe"
-            "TargetName" = "8:cmd.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E61E7B12BF0A422A9118312E24FAAE7B"
@@ -295,17 +229,6 @@
                     "Property" = "8:_99D1F5EE85954FE98C881646CBDE6690"
                         "Folders"
                         {
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_B621FEF83703421494FDD144B58DF6A3"
-                            {
-                            "Name" = "8:_data"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_26292680EF4C4F649941B7655C6C0260"
-                                "Folders"
-                                {
-                                }
-                            }
                         }
                     }
                 }
@@ -924,7 +847,7 @@
             "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_8A2535BFA45B43049FC1D5C9F158B24B"
+            "Folder" = "8:_3D2DD234786B43638838708E7EE2B56E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
